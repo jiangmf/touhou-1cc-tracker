@@ -1,0 +1,363 @@
+{% extends 'base.html' %}
+
+{% block "shareable_link" %}
+<button class="btn btn-primary" type="button" onClick="window.location.href= window.location.href.replace('view','edit')">Edit This Tracker</button>
+{% endblock %}
+
+{% block "content" %}
+<div class="row">
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-primary hrtp">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Highly Responsive to Prayers</div>
+            <div class="panel-body">
+                <div class="table" data-game="hrtp">
+                    {% include '_table.html' with data=data.hrtp %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner">MA</div></div>
+                        <div class="cell"><div class="cell-inner">J</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-primary soew">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Story of Eastern Wonderland</div>
+            <div class="panel-body">
+                <div class="table" data-game="soew">
+                    {% include '_table.html' with data=data.soew %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>R</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">C</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix visible-sm"></div>
+    <div class="col-md-6 col-sm-12">
+        <div class="panel panel-primary podd">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Phantasmagoria of Dim. Dream</div>
+            <div class="panel-body">
+                <div class="table" data-game="podd">
+                    {% include '_table.html' with data=data.podd %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner">R</div></div>
+                        <div class="cell"><div class="cell-inner">MI</div></div>
+                        <div class="cell"><div class="cell-inner">M</div></div>
+                        <div class="cell"><div class="cell-inner">E</div></div>
+                        <div class="cell"><div class="cell-inner">K</div></div>
+                        <div class="cell"><div class="cell-inner">KA</div></div>
+                        <div class="cell"><div class="cell-inner">RI</div></div>
+                        <div class="cell"><div class="cell-inner">CH</div></div>
+                        <div class="cell"><div class="cell-inner">YM</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-primary lls">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Lotus Land Story</div>
+            <div class="panel-body">
+                <div class="table" data-game="lls">
+                    {% include '_table.html' with data=data.lls %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>R</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>M</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-primary ms">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Mystic Square</div>
+            <div class="panel-body">
+                <div class="table" data-game="ms">
+                    {% include '_table.html' with data=data.ms %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner">R</div></div>
+                        <div class="cell"><div class="cell-inner">M</div></div>
+                        <div class="cell"><div class="cell-inner">MI</div></div>
+                        <div class="cell"><div class="cell-inner">YK</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix visible-sm"></div>
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-primary eosd">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> The Embodiment of Scarlet Devil</div>
+            <div class="panel-body">
+                <div class="table" data-game="eosd">
+                    {% include '_table.html' with data=data.eosd %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>R</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>M</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-primary pcb">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Perfect Cherry Blossom</div>
+            <div class="panel-body">
+                <div class="table" data-game="pcb">
+                    {% include '_table.html' with data=data.pcb %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>R</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>M</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>S</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-sm-12">
+        <div class="panel panel-primary in">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Imperishable Night</div>
+            <div class="panel-body">
+                <div class="table" data-game="in">
+                    {% include '_table.html' with data=data.in %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner">BT</div></div>
+                        <div class="cell"><div class="cell-inner">MT</div></div>
+                        <div class="cell"><div class="cell-inner">ST</div></div>
+                        <div class="cell"><div class="cell-inner">NT</div></div>
+                        <div class="cell"><div class="cell-inner">R</div></div>
+                        <div class="cell"><div class="cell-inner">YU</div></div>
+                        <div class="cell"><div class="cell-inner">M</div></div>
+                        <div class="cell"><div class="cell-inner">A</div></div>
+                        <div class="cell"><div class="cell-inner">S</div></div>
+                        <div class="cell"><div class="cell-inner">RE</div></div>
+                        <div class="cell"><div class="cell-inner">Y</div></div>
+                        <div class="cell"><div class="cell-inner">YY</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-primary mof">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Mountain of Faith</div>
+            <div class="panel-body">
+                <div class="table" data-game="mof">
+                    {% include '_table.html' with data=data.mof %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>R</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">C</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>M</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">C</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-primary sa">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Subterranean Animism</div>
+            <div class="panel-body">
+                <div class="table" data-game="sa">
+                    {% include '_table.html' with data=data.sa %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>R</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">C</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>M</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">C</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-primary ufo">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Undefined Fantastic Object</div>
+            <div class="panel-body">
+                <div class="table" data-game="ufo">
+                    {% include '_table.html' with data=data.ufo %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>R</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>M</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>SN</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-primary td">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Touhou Hisōtensoku</div>
+            <div class="panel-body">
+                <div class="table" data-game="td">
+                    {% include '_table.html' with data=data.td %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner">R</div></div>
+                        <div class="cell"><div class="cell-inner">M</div></div>
+                        <div class="cell"><div class="cell-inner">SN</div></div>
+                        <div class="cell"><div class="cell-inner">Y</div></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-primary ddc">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Double Dealing Character</div>
+            <div class="panel-body">
+                <div class="table" data-game="ddc">
+                    {% include '_table.html' with data=data.ddc %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>R</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>M</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">A</span>S</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">B</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-primary lolk">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Legacy of Lunatic Kingdom</div>
+            <div class="panel-body">
+                <div class="table" data-game="lolk">
+                    {% include '_table.html' with data=data.lolk %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">P</span>R</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">L</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">P</span>M</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">L</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">P</span>SN</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">L</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">P</span>RS</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">L</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix visible-sm"></div>
+    <div class="col-md-6 col-sm-12">
+        <div class="panel panel-primary hsifs">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Hidden Star in Four Seasons</div>
+            <div class="panel-body">
+                <div class="table" data-game="hsifs">
+                    {% include '_table.html' with data=data.hsifs %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">SP</span>R</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">SU</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">AU</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">WI</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">SP</span>C</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">SU</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">AU</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">WI</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">SP</span>AY</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">SU</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">AU</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">WI</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">SP</span>M</div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">SU</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">AU</span></div></div>
+                        <div class="cell"><div class="cell-inner"><span class="shot-type">WI</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-sm-12">
+        <div class="panel panel-primary pofv">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Phantasmagoria of Flower View</div>
+            <div class="panel-body">
+                <div class="table" data-game="pofv">
+                    {% include '_table.html' with data=data.pofv %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner">R</div></div>
+                        <div class="cell"><div class="cell-inner">M</div></div>
+                        <div class="cell"><div class="cell-inner">S</div></div>
+                        <div class="cell"><div class="cell-inner">Y</div></div>
+                        <div class="cell"><div class="cell-inner">RS</div></div>
+                        <div class="cell"><div class="cell-inner">C</div></div>
+                        <div class="cell"><div class="cell-inner">L</div></div>
+                        <div class="cell"><div class="cell-inner">MY</div></div>
+                        <div class="cell"><div class="cell-inner">T</div></div>
+                        <div class="cell"><div class="cell-inner">AV</div></div>
+                        <div class="cell"><div class="cell-inner">ME</div></div>
+                        <div class="cell"><div class="cell-inner">YK</div></div>
+                        <div class="cell"><div class="cell-inner">K</div></div>
+                        <div class="cell"><div class="cell-inner">E</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-sm-6">
+        <div class="panel panel-primary gfw">
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Great Fairy Wars</div>
+            <div class="panel-body">
+                <div class="table" data-game="gfw">
+                    {% include '_table.html' with data=data.gfw %}
+                    <div class="row">
+                        <div class="cell"><div class="cell-inner"></div></div>
+                        <div class="cell"><div class="cell-inner">A1</div></div>
+                        <div class="cell"><div class="cell-inner">A2</div></div>
+                        <div class="cell"><div class="cell-inner">B1</div></div>
+                        <div class="cell"><div class="cell-inner">B2</div></div>
+                        <div class="cell"><div class="cell-inner">C1</div></div>
+                        <div class="cell"><div class="cell-inner">C2</div></div>
+                        <div class="cell"><div class="cell-inner">EX</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% block "submit" %}
+
+{% endblock %}
+{% endblock %}

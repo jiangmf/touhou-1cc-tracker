@@ -1,0 +1,20 @@
+{% for diff, characters in data.items %}
+<div class="row">
+    <div class="cell"><div class="cell-inner">{{diff}}</div></div>
+    {% for value in characters %}
+        {% if value %}
+            {% if value == True %}
+            	<div class="cell filled"><div class="cell-inner"></div></div>
+            {% else %}
+            	<div class="cell filled"><div class="cell-inner">{{value}}</div></div>
+            {% endif %}
+        {% else %}
+            {% if value == None %}
+    			<div class="cell null"><div class="cell-inner"></div></div>
+            {%  else %}
+            	<div class="cell"><div class="cell-inner"></div></div>
+            {% endif %}
+   		{% endif %}
+    {% endfor %}
+</div>
+{% endfor %}

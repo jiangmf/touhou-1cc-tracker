@@ -1,0 +1,22 @@
+{% extends 'view.html' %}
+{% load static %}
+
+{% block "shareable_link" %}
+<button id="shareable_link" class="btn btn-primary" type="button">Share</button>
+{% endblock %}
+
+{% block "submit" %}
+<div class="row">
+    <form class="form-horizontal col-md-12" _lpchecked="1" action="" method="post">
+        {% csrf_token %}
+        <div class="form-group">
+          <input class="form-control center-block" id="tracker-password" type="password" name="tracker_password" placeholder="Password">
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-default" id="tracker-save" type="button">Save</button>
+        </div>
+    </form>
+</div>
+<script src="{% static 'js/script.js' %}"></script>
+{% endblock %}

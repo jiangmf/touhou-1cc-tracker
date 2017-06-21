@@ -1,0 +1,229 @@
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+div, button{
+    transition: all 0.1s ease;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  padding-top: 75px;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 1200px) {
+/*   .mastfoot {
+    position: fixed;
+    bottom: 0;
+  } */
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 1500px) {
+  .mastfoot,
+  .cover-container {
+    width: 1500px;
+  }
+}
+
+.panel-body > .table{
+    display:table;
+    table-layout:fixed;
+    border-collapse: collapse;
+}
+
+.panel-body > .table > .row {
+    display:table-row;
+}
+
+.panel-body > .table > .row > .cell {
+    border: 1px solid #FFFFFF;
+    width: 28px;
+    height: 28px;
+    display: table-cell;
+    font-size: 14px;
+    font-family: monospace;
+    text-shadow: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.panel-body > .table > .row > .cell.filled {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.panel-body > .table > .row > .cell.null {
+    border: none;
+}
+
+.panel-body > .table > .row > .cell > .cell-inner{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    line-height: 14px;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.row:not(:last-child) .cell:not(:first-child):not(.null) .cell-inner{
+    cursor: pointer;
+}
+
+.panel-body > .table > .row > .cell:first-child > .cell-inner{
+    line-height: 28px;
+}
+
+.panel-body > .table > .row > .cell:first-child{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.panel-body > .table > .row:last-child > .cell{
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.panel-body > .table > .row:last-child > .cell > .cell-inner{
+    line-height:14px;
+}
+
+.shot-type{
+    display:block;
+font-size:10px}
+
+#tracker-password {
+    max-width: 500px;
+}
+
+#logo {
+    height: 38px;
+    margin-top: -7px;
+    margin-right: -10px;
+}
+
+.navbar-form input.form-control{
+    width: 150px;
+}
+
+.panel-body {
+    padding: 15px 0px;
+}
+
+.hrtp .bullet{color: #f44336}
+.hrtp > .panel-body > .table > .row > .cell.filled{background-color: #f44336;}
+
+.soew .bullet{color: #E91E63}
+.soew > .panel-body > .table > .row > .cell.filled{background-color: #E91E63;}
+
+.podd .bullet{color: #9C27B0}
+.podd > .panel-body > .table > .row > .cell.filled{background-color: #9C27B0;}
+
+.lls .bullet{color: #673AB7}
+.lls > .panel-body > .table > .row > .cell.filled{background-color: #673AB7;}
+
+.ms .bullet{color: #3F51B5}
+.ms > .panel-body > .table > .row > .cell.filled{background-color: #3F51B5;}
+
+.eosd .bullet{color: #2196F3}
+.eosd > .panel-body > .table > .row > .cell.filled{background-color: #2196F3;}
+
+.pcb .bullet{color: #03A9F4}
+.pcb > .panel-body > .table > .row > .cell.filled{background-color: #03A9F4;}
+
+.in .bullet{color: #00BCD4}
+.in > .panel-body > .table > .row > .cell.filled{background-color: #00BCD4;}
+
+.mof .bullet{color: #009688}
+.mof > .panel-body > .table > .row > .cell.filled{background-color: #009688;}
+
+.sa .bullet{color: #4CAF50}
+.sa > .panel-body > .table > .row > .cell.filled{background-color: #4CAF50;}
+
+.ufo .bullet{color: #8BC34A}
+.ufo > .panel-body > .table > .row > .cell.filled{background-color: #8BC34A;}
+
+.td .bullet{color: #CDDC39}
+.td > .panel-body > .table > .row > .cell.filled{background-color: #CDDC39;}
+
+.ddc .bullet{color: #FFEB3B}
+.ddc > .panel-body > .table > .row > .cell.filled{background-color: #FFEB3B;}
+
+.lolk .bullet{color: #FFC107}
+.lolk > .panel-body > .table > .row > .cell.filled{background-color: #FFC107;}
+
+.hsifs .bullet{color: #FF9800}
+.hsifs > .panel-body > .table > .row > .cell.filled{background-color: #FF9800;}
+
+.pofv .bullet{color: #FF5722}
+.pofv > .panel-body > .table > .row > .cell.filled{background-color: #FF5722;}
+
+.gfw .bullet{color: #795548}
+.gfw > .panel-body > .table > .row > .cell.filled{background-color: #795548;}

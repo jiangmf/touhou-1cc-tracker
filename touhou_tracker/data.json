@@ -1,0 +1,105 @@
+{
+    "hrtp": {
+        "L": [false, false],
+        "H": [false, false],
+        "N": [false, false]
+    },
+    "soew": {
+        "X": [false, false, false],
+        "L": [false, false, false],
+        "H": [false, false, false],
+        "N": [false, false, false]
+    },
+    "podd": {
+        "L": [false, false, false, false, false, false, false, false, false],
+        "H": [false, false, false, false, false, false, false, false, false],
+        "N": [false, false, false, false, false, false, false, false, false]
+    },
+    "lls": {
+        "X": [false, false, false, false],
+        "L": [false, false, false, false],
+        "H": [false, false, false, false],
+        "N": [false, false, false, false]
+    },
+    "ms": {
+        "X": [false, false, false, false],
+        "L": [false, false, false, false],
+        "H": [false, false, false, false],
+        "N": [false, false, false, false]
+    },
+    "eosd": {
+        "X": [false, false, false, false],
+        "L": [false, false, false, false],
+        "H": [false, false, false, false],
+        "N": [false, false, false, false]
+    },
+    "pcb": {
+        "?": [false, false, false, false, false, false],
+        "X": [false, false, false, false, false, false],
+        "L": [false, false, false, false, false, false],
+        "H": [false, false, false, false, false, false],
+        "N": [false, false, false, false, false, false]
+    },
+    "in": {
+        "X": [false, false, false, false, false, false, false, false, false, false, false, false],
+        "BL": [false, false, false, false, false, false, false, false, false, false, false, false],
+        "BH": [false, false, false, false, false, false, false, false, false, false, false, false],
+        "BN": [false, false, false, false, false, false, false, false, false, false, false, false],
+        "AL": [false, false, false, false, false, false, false, false, false, false, false, false],
+        "AH": [false, false, false, false, false, false, false, false, false, false, false, false],
+        "AN": [false, false, false, false, false, false, false, false, false, false, false, false]
+    },
+    "mof": {
+        "X": [false, false, false, false, false, false],
+        "L": [false, false, false, false, false, false],
+        "H": [false, false, false, false, false, false],
+        "N": [false, false, false, false, false, false]
+    },
+    "sa": {
+        "X": [false, false, false, false, false, false],
+        "L": [false, false, false, false, false, false],
+        "H": [false, false, false, false, false, false],
+        "N": [false, false, false, false, false, false]
+    },
+    "ufo": {
+        "X": [false, false, false, false, false, false],
+        "L": [false, false, false, false, false, false],
+        "H": [false, false, false, false, false, false],
+        "N": [false, false, false, false, false, false]
+    },
+    "td": {
+        "X": [false, false, false, false],
+        "L": [false, false, false, false],
+        "H": [false, false, false, false],
+        "N": [false, false, false, false]
+    },
+    "ddc": {
+        "X": [false, false, false, false, false, false],
+        "L": [false, false, false, false, false, false],
+        "H": [false, false, false, false, false, false],
+        "N": [false, false, false, false, false, false]
+    },
+    "lolk": {
+        "X": [null, false, null, false, null, false, null, false],
+        "L": [false, false, false, false, false, false, false, false],
+        "H": [false, false, false, false, false, false, false, false],
+        "N": [false, false, false, false, false, false, false, false]
+    },
+    "hsifs": {
+        "X": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+        "L": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+        "H": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+        "N": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+    },
+    "pofv": {
+        "X": [false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+        "L": [false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+        "H": [false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+        "N": [false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+    },
+    "gfw": {
+        "L": [false, false, false, false, false, false, null],
+        "H": [false, false, false, false, false, false, null],
+        "N": [false, false, false, false, false, false, false]
+    }
+}
