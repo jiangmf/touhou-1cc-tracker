@@ -25,7 +25,7 @@ SECRET_KEY = 'cck$522tt*+$+j#pymd1z+zrrug)7w3)y4!0q4o!(ws#dvus&4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['9ue79b3n.apps.lair.io']
+ALLOWED_HOSTS = ['9ue79b3n.apps.lair.io', 'localhost', '127.0.0.1']
 
 def show_toolbar(request):
     return True
@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'debug_toolbar'
 ]
 
-MIDDLEWARE = [
+MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
