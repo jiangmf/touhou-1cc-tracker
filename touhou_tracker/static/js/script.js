@@ -72,6 +72,7 @@ $(function(){
             type: "POST",
             url: '',
             data: {
+                method: 'save',
                 pass: $('#tracker-password').val(),
                 data: json_data,
                 csrfmiddlewaretoken: $('input[name="csrfmiddlewaretoken"]').val()
@@ -95,6 +96,19 @@ $(function(){
     });
 
     $("#shareable_link").click(function(){
+        $.ajax({
+            type: "POST",
+            url: '',
+            data: {
+                method: 'share',
+                csrfmiddlewaretoken: $('input[name="csrfmiddlewaretoken"]').val()
+            },
+            success: function(data){
+
+            },
+        });
+
+
         var textarea = document.createElement("textarea");
         textarea.textContent = window.location.href.replace('edit', 'view');
         textarea.style.position = "fixed";  // Prevent scrolling to bottom of page in MS Edge.

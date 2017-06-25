@@ -1,6 +1,6 @@
 from django.http import Http404, HttpResponse
 from django.shortcuts import render, redirect
-from touhou_tracker.models import Track
+from touhou_tracker.models import Track, Colors
 
 from django.views.generic.edit import CreateView
 import json, os
@@ -19,27 +19,41 @@ def goto_tracker(request):
     return redirect('home')
 
 def new_tracker(request):
-    if request.method == 'POST':
-        track = Track.objects.create(
-            password=request.POST['tracker_password']
-        )
-        return redirect('edit_tracker', track_id=track.track_id)
-    return render(request, 'new.html')
+    track = Track.objects.create(
+        password='',
+        colors=Colors.objects.create()
+    )
+    return redirect('edit_tracker', track_id=track.track_id)
+
+#     if request.method == 'POST':
+#         track = Track.objects.create(
+#             password=request.POST['tracker_password']
+#         )
+#         return redirect('edit_tracker', track_id=track.track_id)
+#     return render(request, 'new.html')
 
 def edit_tracker(request, track_id=None):
     track = Track.objects.get(track_id=track_id)
     if request.method == 'POST':
         status_code = 1
-        if request.POST['pass'] == track.password:
-            track.data = request.POST['data']
-            track.save()
+        ret = {}
+        if request.POST.get('method', '') == 'save':
+            if request.POST.get('pass', '') == track.password:
+                track.data = request.POST['data']
+                track.save()
+                status_code = 0
+            else:
+                status_code = 2
+        elif request.POST.get('method', '') == 'share':
+            new_track = Track.objects.create(read_only=True, data=track.data)
             status_code = 0
-        else:
-            status_code = 2
-        return HttpResponse(json.dumps({'status': status_code}), content_type="application/json")
+            ret.update({"share_id": new_track.track_id})
+        ret.update({"status": status_code})
+        return HttpResponse(json.dumps(ret), content_type="application/json")
     else:
         if not track.data:
-            with open( os.path.join(os.path.dirname(os.path.dirname(__file__)),'touhou_tracker/data.json'), 'r') as f:
+            with open(os.path.join(os.path.dirname(os.path.dirname(__file__)),
+                'touhou_tracker/data.json'), 'r') as f:
                 data = json.loads(f.read(), object_pairs_hook=OrderedDict)
             track.data = json.dumps(data)
             track.save()
@@ -52,7 +66,8 @@ def edit_tracker(request, track_id=None):
 def view_tracker(request, track_id=None):
     track = Track.objects.get(track_id=track_id)
     if not track.data:
-        with open( os.path.join(os.path.dirname(os.path.dirname(__file__)),'touhou_tracker/data.json'), 'r') as f:
+        with open(os.path.join(os.path.dirname(os.path.dirname(__file__)),
+            'touhou_tracker/data.json'), 'r') as f:
             data = json.loads(f.read(), object_pairs_hook=OrderedDict)
             track.data = json.dumps(data)
             track.save()

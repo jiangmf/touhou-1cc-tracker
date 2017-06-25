@@ -9,9 +9,11 @@
 <div class="row">
     <form class="form-horizontal col-md-12" _lpchecked="1" action="" method="post">
         {% csrf_token %}
+        {% comment %}
         <div class="form-group">
           <input class="form-control center-block" id="tracker-password" type="password" name="tracker_password" placeholder="Password">
         </div>
+        {% endcomment %}
 
         <div class="form-group">
             <button class="btn btn-default" id="tracker-save" type="button">Save</button>
