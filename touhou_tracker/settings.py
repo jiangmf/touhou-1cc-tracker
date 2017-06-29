@@ -23,12 +23,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'cck$522tt*+$+j#pymd1z+zrrug)7w3)y4!0q4o!(ws#dvus&4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['9ue79b3n.apps.lair.io', 'localhost', '127.0.0.1']
 
 def show_toolbar(request):
-    return True
+    return DEBUG
+
 DEBUG_TOOLBAR_CONFIG = {
     'SHOW_TOOLBAR_CALLBACK': show_toolbar,
 }

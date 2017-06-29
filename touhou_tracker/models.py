@@ -1,5 +1,6 @@
 from django.db import models
 import random, string
+from django.forms.models import model_to_dict
 
 def my_random_key():
     return ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(8))
@@ -22,6 +23,9 @@ class Colors(models.Model):
     c_hsifs = models.CharField(max_length=6, default="#FF9800")
     c_pofv = models.CharField(max_length=6, default="#FF5722")
     c_gfw = models.CharField(max_length=6, default="#795548")
+
+    def to_dict(self):
+        return dict((k.replace('c_', ''), v) for (k, v) in model_to_dict(self).items() if 'c_' in k)
 
 class Track(models.Model):
     track_id = models.CharField(max_length=10, default=my_random_key)

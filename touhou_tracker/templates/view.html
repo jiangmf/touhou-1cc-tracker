@@ -1,10 +1,75 @@
 {% extends 'base.html' %}
 
+{% block "css" %}
+<style id="custom-colors">
+    {% for k, v in colors.items %}
+    .{{k}} .bullet{color: {{v}}}
+    .{{k}} > .panel-body > .table > .row > .cell.filled{background-color: {{v}};}
+    {% endfor %}
+{% comment %}
+.hrtp .bullet{color: #f44336}
+.hrtp > .panel-body > .table > .row > .cell.filled{background-color: #f44336;}
+
+.soew .bullet{color: #E91E63}
+.soew > .panel-body > .table > .row > .cell.filled{background-color: #E91E63;}
+
+.podd .bullet{color: #9C27B0}
+.podd > .panel-body > .table > .row > .cell.filled{background-color: #9C27B0;}
+
+.lls .bullet{color: #673AB7}
+.lls > .panel-body > .table > .row > .cell.filled{background-color: #673AB7;}
+
+.ms .bullet{color: #3F51B5}
+.ms > .panel-body > .table > .row > .cell.filled{background-color: #3F51B5;}
+
+.eosd .bullet{color: #2196F3}
+.eosd > .panel-body > .table > .row > .cell.filled{background-color: #2196F3;}
+
+.pcb .bullet{color: #03A9F4}
+.pcb > .panel-body > .table > .row > .cell.filled{background-color: #03A9F4;}
+
+.in .bullet{color: #00BCD4}
+.in > .panel-body > .table > .row > .cell.filled{background-color: #00BCD4;}
+
+.mof .bullet{color: #009688}
+.mof > .panel-body > .table > .row > .cell.filled{background-color: #009688;}
+
+.sa .bullet{color: #4CAF50}
+.sa > .panel-body > .table > .row > .cell.filled{background-color: #4CAF50;}
+
+.ufo .bullet{color: #8BC34A}
+.ufo > .panel-body > .table > .row > .cell.filled{background-color: #8BC34A;}
+
+.td .bullet{color: #CDDC39}
+.td > .panel-body > .table > .row > .cell.filled{background-color: #CDDC39;}
+
+.ddc .bullet{color: #FFEB3B}
+.ddc > .panel-body > .table > .row > .cell.filled{background-color: #FFEB3B;}
+
+.lolk .bullet{color: #FFC107}
+.lolk > .panel-body > .table > .row > .cell.filled{background-color: #FFC107;}
+
+.hsifs .bullet{color: #FF9800}
+.hsifs > .panel-body > .table > .row > .cell.filled{background-color: #FF9800;}
+
+.pofv .bullet{color: #FF5722}
+.pofv > .panel-body > .table > .row > .cell.filled{background-color: #FF5722;}
+
+.gfw .bullet{color: #795548}
+.gfw > .panel-body > .table > .row > .cell.filled{background-color: #795548;}
+{% endcomment %}
+</style>
+{% endblock %}
+
 {% block "shareable_link" %}
+{% if not read_only %}
 <button class="btn btn-primary" type="button" onClick="window.location.href= window.location.href.replace('view','edit')">Edit This Tracker</button>
+{% endif %}
 {% endblock %}
 
 {% block "content" %}
+{% block "alert" %}
+{% endblock %}
 <div class="row">
     <div class="col-md-3 col-sm-6">
         <div class="panel panel-primary hrtp">

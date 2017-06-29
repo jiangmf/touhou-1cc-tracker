@@ -1,8 +1,24 @@
 {% extends 'view.html' %}
 {% load static %}
 
+{% block "alert" %}
+{% if new_tracker %}
+<div class="alert alert-success alert-dismissible">
+  <button class="close" data-dismiss="alert" type="button">×</button>
+  Your unique tracker id is {{track_id}}, save this or bookmark this page to edit your tracker in the future.<br>
+  DO NOT share this URL, instead, click on the share button on the top right.
+</div>
+{% endif %}
+<div class="alert alert-primary alert-dismissible text-left">
+  <button class="close" data-dismiss="alert" type="button">×</button>
+   <span class="kbd-wrapper"><kbd>LMB</kbd></span> Toggle Completion<br>
+   <span class="kbd-wrapper"><kbd>RMB</kbd></span> Edit text on completed tiles<br>
+   <span class="kbd-wrapper"><kbd>CTRL + S</kbd></span> Save
+</div>
+{% endblock %}
+
 {% block "shareable_link" %}
-<button id="shareable_link" class="btn btn-primary" type="button">Share</button>
+<button id="shareable_link" class="btn btn-primary" type="button" data-toggle="popover" data-placement="bottom" data-content="[data-content]" type="button">Share</button>
 {% endblock %}
 
 {% block "submit" %}
@@ -20,5 +36,8 @@
         </div>
     </form>
 </div>
+{% endblock %}
+
+{% block "scripts" %}
 <script src="{% static 'js/script.js' %}"></script>
 {% endblock %}
