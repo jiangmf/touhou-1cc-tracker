@@ -1,19 +1,11 @@
-{% for diff, characters in data.items %}
+{% for diff, characters in data.data.items %}
 <div class="row">
     <div class="cell"><div class="cell-inner">{{diff}}</div></div>
     {% for value in characters %}
-        {% if value %}
-            {% if value == True %}
-            	<div class="cell filled"><div class="cell-inner"></div></div>
-            {% else %}
-            	<div class="cell filled"><div class="cell-inner">{{value}}</div></div>
-            {% endif %}
+        {% if value == None %}
+            <div class="cell null"><div class="cell-inner"></div></div>
         {% else %}
-            {% if value == None %}
-    			<div class="cell null"><div class="cell-inner"></div></div>
-            {%  else %}
-            	<div class="cell"><div class="cell-inner"></div></div>
-            {% endif %}
+            <div class="cell {% if value.filled %}filled{% endif %}"><div class="cell-inner">{{ value.text }}</div></div>
    		{% endif %}
     {% endfor %}
 </div>

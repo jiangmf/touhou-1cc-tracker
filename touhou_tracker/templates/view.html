@@ -284,7 +284,7 @@
     </div>
     <div class="col-md-3 col-sm-6">
         <div class="panel panel-primary td">
-            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Touhou Hisōtensoku</div>
+            <div class="panel-heading"><i class="fa fa-circle bullet" aria-hidden="true"></i> Ten Desires</div>
             <div class="panel-body">
                 <div class="table" data-game="td">
                     {% include '_table.html' with data=data.td %}
@@ -425,4 +425,20 @@
 {% block "submit" %}
 
 {% endblock %}
+{% endblock %}
+
+{% block "scripts" %}
+<script type="text/javascript">
+$(function(){
+    $('.table .row:not(:last-child) .cell:not(:first-child):not(.null) .cell-inner').each(function(){
+        if($(this).text().length > 4){
+            $(this).css('line-height', '9.333px');
+            $(this).css('font-size', '10px');
+        } else {
+            $(this).css('line-height', '14px');
+            $(this).css('font-size', '14px');
+        }
+    });
+}) 
+</script>
 {% endblock %}

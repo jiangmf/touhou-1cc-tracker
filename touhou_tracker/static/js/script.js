@@ -34,20 +34,27 @@ function saveData(){
     var track_data = {};
         $('.table').each(function(){
             var game = $(this).attr('data-game');
-            track_data[game] = {};
+            track_data[game] = {
+                "hidden": false,
+                "data": {}
+            };
             $(this).children('.row:not(:last-child)').each(function(){
                 var diff = $(this).children('.cell').first().text();
-                track_data[game][diff] = [];
+                track_data[game]["data"][diff] = [];
                 $(this).children('.cell:not(:first-child)').each(function(){
+                    var cell_data = {}
                     if($(this).hasClass('filled')){
-                        if($(this).text()) { track_data[game][diff].push($(this).text()); }
-                        else { track_data[game][diff].push(true); }
-                    } else if($(this).hasClass('filled')){
-                        track_data[game][diff].push(null);
+                        cell_data["text"] = $(this).text();
+                        cell_data["filled"] = true;
+                        cell_data["replay"] = "";
+                    } else if($(this).hasClass('null')){
+                        cell_data = null;
                     } else {
-                        track_data[game][diff].push(false);
+                        cell_data["text"] = $(this).text();
+                        cell_data["filled"] = false;
+                        cell_data["replay"] = "";
                     }
-
+                    track_data[game]["data"][diff].push(cell_data);
                 });
             });
         });

@@ -1,105 +1,174 @@
 {
     "hrtp": {
-        "L": [false, false],
-        "H": [false, false],
-        "N": [false, false]
+        "hidden": false,
+        "data": {
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "soew": {
-        "X": [false, false, false],
-        "L": [false, false, false],
-        "H": [false, false, false],
-        "N": [false, false, false]
+        "hidden": false,
+        "data": {
+            "X": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "podd": {
-        "L": [false, false, false, false, false, false, false, false, false],
-        "H": [false, false, false, false, false, false, false, false, false],
-        "N": [false, false, false, false, false, false, false, false, false]
+        "hidden": false,
+        "data": {
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "lls": {
-        "X": [false, false, false, false],
-        "L": [false, false, false, false],
-        "H": [false, false, false, false],
-        "N": [false, false, false, false]
+        "hidden": false,
+        "data": {
+            "X": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "ms": {
-        "X": [false, false, false, false],
-        "L": [false, false, false, false],
-        "H": [false, false, false, false],
-        "N": [false, false, false, false]
+        "hidden": false,
+        "data": {
+            "X": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "eosd": {
-        "X": [false, false, false, false],
-        "L": [false, false, false, false],
-        "H": [false, false, false, false],
-        "N": [false, false, false, false]
+        "hidden": false,
+        "data": {
+            "X": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "pcb": {
-        "?": [false, false, false, false, false, false],
-        "X": [false, false, false, false, false, false],
-        "L": [false, false, false, false, false, false],
-        "H": [false, false, false, false, false, false],
-        "N": [false, false, false, false, false, false]
+        "hidden": false,
+        "data": {
+            "P": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "X": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "in": {
-        "X": [false, false, false, false, false, false, false, false, false, false, false, false],
-        "BL": [false, false, false, false, false, false, false, false, false, false, false, false],
-        "BH": [false, false, false, false, false, false, false, false, false, false, false, false],
-        "BN": [false, false, false, false, false, false, false, false, false, false, false, false],
-        "AL": [false, false, false, false, false, false, false, false, false, false, false, false],
-        "AH": [false, false, false, false, false, false, false, false, false, false, false, false],
-        "AN": [false, false, false, false, false, false, false, false, false, false, false, false]
+        "hidden": false,
+        "data": {
+            "X": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "BL": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "BH": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "BN": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "BE": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "AL": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "AH": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "AN": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "AE": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "mof": {
-        "X": [false, false, false, false, false, false],
-        "L": [false, false, false, false, false, false],
-        "H": [false, false, false, false, false, false],
-        "N": [false, false, false, false, false, false]
+        "hidden": false,
+        "data": {
+            "X": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "sa": {
-        "X": [false, false, false, false, false, false],
-        "L": [false, false, false, false, false, false],
-        "H": [false, false, false, false, false, false],
-        "N": [false, false, false, false, false, false]
+        "hidden": false,
+        "data": {
+            "X": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "ufo": {
-        "X": [false, false, false, false, false, false],
-        "L": [false, false, false, false, false, false],
-        "H": [false, false, false, false, false, false],
-        "N": [false, false, false, false, false, false]
+        "hidden": false,
+        "data": {
+            "X": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "td": {
-        "X": [false, false, false, false],
-        "L": [false, false, false, false],
-        "H": [false, false, false, false],
-        "N": [false, false, false, false]
+        "hidden": false,
+        "data": {
+            "X": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "ddc": {
-        "X": [false, false, false, false, false, false],
-        "L": [false, false, false, false, false, false],
-        "H": [false, false, false, false, false, false],
-        "N": [false, false, false, false, false, false]
+        "hidden": false,
+        "data": {
+            "X": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "lolk": {
-        "X": [null, false, null, false, null, false, null, false],
-        "L": [false, false, false, false, false, false, false, false],
-        "H": [false, false, false, false, false, false, false, false],
-        "N": [false, false, false, false, false, false, false, false]
+        "hidden": false,
+        "data": {
+            "X": [null, {"filled": false, "text": "", "replay": ""}, null, {"filled": false, "text": "", "replay": ""}, null, {"filled": false, "text": "", "replay": ""}, null, {"filled": false, "text": "", "replay": ""}],
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "hsifs": {
-        "X": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
-        "L": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
-        "H": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
-        "N": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+        "hidden": false,
+        "data": {
+            "X": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "pofv": {
-        "X": [false, false, false, false, false, false, false, false, false, false, false, false, false, false],
-        "L": [false, false, false, false, false, false, false, false, false, false, false, false, false, false],
-        "H": [false, false, false, false, false, false, false, false, false, false, false, false, false, false],
-        "N": [false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+        "hidden": false,
+        "data": {
+            "X": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}]
+        }
     },
     "gfw": {
-        "L": [false, false, false, false, false, false, null],
-        "H": [false, false, false, false, false, false, null],
-        "N": [false, false, false, false, false, false, false]
+        "hidden": false,
+        "data": {
+            "L": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, null],
+            "H": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, null],
+            "N": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}],
+            "E": [{"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, {"filled": false, "text": "", "replay": ""}, null]
+        }
     }
 }
